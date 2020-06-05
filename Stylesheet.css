@@ -155,11 +155,11 @@ strong{
     position: absolute;
     left: 18;
     bottom: 220px;
-    top: 14px;
+    top: 11px;
     background-color: black;
     color: white;
-    width:89%;
-    height: 82%;
+    width:88%;
+    height: 80%;
     overflow-y: scroll;
     overflow-y: hidden;
 }
