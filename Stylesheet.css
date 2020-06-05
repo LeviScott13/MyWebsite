@@ -33,6 +33,18 @@ strong{
     color: #ff6666;
     font-size: 12;
 }
+#font6{
+    color: #6D6C6C;
+    font-size: 15;
+}
+#font7{
+    color: #6D6C6C;
+    font-size: 10;
+}
+#font8{
+    color: #ff6666;
+    font-size: 11;
+}
 #header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #D3D3D3;
@@ -178,6 +190,6 @@ strong{
     background-color: black;
     color: white;
     width:90%;
-    height: 83%;
+    height: 84%;
     overflow-y: scroll;
 }
