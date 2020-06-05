@@ -75,7 +75,7 @@ strong{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #phone{
-    width: 45%;
+    width: 80%;
     position: relative;
     overflow: hidden;
 }
@@ -153,13 +153,13 @@ strong{
 }
 .screen2{
     position: absolute;
-    left: 22;
+    left: 18;
     bottom: 220px;
-    top: 20px;
+    top: 14px;
     background-color: black;
     color: white;
     width:89%;
-    height: 85%;
+    height: 82%;
     overflow-y: scroll;
     overflow-y: hidden;
 }
