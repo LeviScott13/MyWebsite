@@ -18,8 +18,10 @@
 
                             <!------------------------------------------------------------------- Home ------------------------------------------------------------------->
                             <div style="border-radius: 8%;" id=home2 class=fade-in>
-                                <br><br>
-                                <div id=time></div>
+                                <br>
+                                <font id=time style="font-size: 38;"></font>
+                                <br>
+                                <font id=date style="font-size: 11;"></font>
                                 <br><br><br>
                                 <div id=pic2>
                                     <img style="border-radius: 20%;" height="25%" width="100%" src="Images/Levi.jpg" >
@@ -35,39 +37,41 @@
                             <!-------------------------------------------------------------------------------------------------------------------------------------------->
                             
                             <!------------------------------------------------------------------- About ------------------------------------------------------------------->
-                            <div id=profile>
+                            <div id=profile2>
                                 </br>
-                                <div id=header>
+                                <div id=header2>
                                     </br>
                                     <font id=font6 style="border-bottom: 2px solid #ff6666;">About Me</font>
                                     </br></br>
                                 </div>
-                                <div id=pImg>
-                                    <img height="10%" width="55%" src="Images/KSU.png" >
-                                    <img style="padding-top: 10px; padding-left: 20px;" height="10%" width="15%" src="Images/KSU.jpg" >
+                                <div id=pImg2>
+                                    <img style="padding-right: 5px;" height="10%" width="20%" src="Images/KSU2.png" >
+                                    <img height="10%" width="17%" src="Images/java.png" >
+                                    <img height="9%" width="20%" src="Images/ps.png">
+                                    <img height="48" width="20%" src="Images/pp.png">
                                 </div>
-                                <div id=sub>
+                                <div id=sub2>
                                     </br>
-                                    <font id=font7>
-                                    I'm an aspiring Computer Programmer living in Canton, GA. 
-                                    I just recently graduated from 
-                                    <font id=font8><strong>Kennesaw State University</strong></font> 
-                                    with a
-                                    <font id=font8><strong>Bachelor's Degree </strong>
-                                    </font>in 
-                                    <font id=font8><strong>Computer Science</strong></font>
-                                    .</font>
+                                    <font id=font7>I'm an aspiring Computer Programmer based 
+                                    in Canton, GA. I recently graduated from 
+                                    <font id=font8><strong>Kennesaw State University</strong></font> (May, 2020).
                                     </br></br>
-                                    <font id=font7>
-                                    I enjoy programming and love the challenge of coding. For me, coding is a way to express
-                                    </br>myself. I'm passionate about creating and seeing my code come to life. There is still so much I've 
-                                    </br>yet to discover in the world of Computer Science, but that's what keeps me wanting
-                                    to explore more.
+                                    <font id=font8><strong>Bachelor's Degree: </strong></font>Computer Science
+                                    </br></br>
+                                    I enjoy coding and always up for a good 
+                                    <br> 
+                                    challenge. I'm passionate about developing
+                                    <br>
+                                    and seeing my code come to life. My goal is
+                                    <br>
+                                    to learn from  the best minds in the business
+                                    <br>
+                                    and one day share my code with the world.
                                     </font>
                                     </br></br>
                                     <font id=font7>
                                     When I'm not coding, you'll find me playing video games, watching sports, or working on my 
-                                    </br>ping pong game.
+                                    ping pong game.
                                     </font>
                                     </br></br>
                                     <font id=font7>
@@ -137,5 +141,21 @@
           if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
           return i;
         }
+        const months =  ["January", "February", "March", "April", "May", "June",
+                        "July", "August", "September", "October", "November", "December"];
+        const date = new Date();
+        var weekday = new Array(7);
+        weekday[0] = "Sunday";
+        weekday[1] = "Monday";
+        weekday[2] = "Tuesday";
+        weekday[3] = "Wednesday";
+        weekday[4] = "Thursday";
+        weekday[5] = "Friday";
+        weekday[6] = "Saturday";
+        var currentMonth = months[date.getMonth()];
+        var day = date.getDay();
+        var wDay = weekday[date.getDay()];
+
+        document.getElementById('date').innerHTML = wDay + ", " + currentMonth + " " + day;
         </script>
 </html>

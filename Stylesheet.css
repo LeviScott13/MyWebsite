@@ -35,21 +35,27 @@ strong{
 }
 #font6{
     color: #6D6C6C;
-    font-size: 15;
+    font-size: 18;
 }
 #font7{
     color: #6D6C6C;
-    font-size: 9;
+    font-size: 13;
 }
 #font8{
     color: #ff6666;
-    font-size: 9;
+    font-size: 13;
 }
 #header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #D3D3D3;
     border: 4px solid black;
     width: 80%;
+}
+#header2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #D3D3D3;
+    border: 4px solid black;
+    width: 92%;
 }
 #container{
     position: relative;
@@ -88,6 +94,13 @@ strong{
     background-color: #D3D3D3;
     width: 80%;
 }
+#pImg2{
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #D3D3D3;
+    width: 92%;
+}
 #pContainer{
     width: 60%;
 }
@@ -116,11 +129,24 @@ strong{
     background: linear-gradient(to bottom, #ff0000 0%, #ff6666 75%);
     float: left;
 }
+#profile2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
 #sub{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #D3D3D3;
     border: 4px solid black;
     width: 80%;
+    overflow: hidden;
+}
+#sub2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #D3D3D3;
+    border: 4px solid black;
+    width: 92%;
     overflow: hidden;
 }
 .fade-in {
