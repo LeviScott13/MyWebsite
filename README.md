@@ -5,6 +5,7 @@ Tools used:
 
  - HTML
  - CSS3
+ - JavaScript
 
 ![](Images/w1.PNG)
 
